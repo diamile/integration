@@ -1,10 +1,9 @@
 header{
-    background-image:url('../images/header.png');
+    background-image:url('../images/header-bg.png');
     background-repeat:no-repeat;
     height:500px;
     max-width:1024px;
-    /* display:table;
-    margin:0 auto; */
+   
 }
 
 body{
@@ -12,4 +11,120 @@ body{
     display:table;
     margin:0 auto; 
     width:1024px;
+}
+
+.article{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:738px;
+    margin:0 auto;
+    padding-top:100px;
+    height:1148px;
+}
+
+.article1 .section1{
+    background-image: url('../images/kiloren.jpg');
+    background-size: cover;
+    height:500px;
+}
+
+.describe{
+    margin-left:20px;
+   
+}
+
+.img{
+    width:300px;
+}
+
+.section2{
+    width:738px;
+    margin:0 auto;
+}
+
+.img-describe{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:738px;
+    margin:0 auto;
+    padding-top:50px;
+}
+
+.before_footer{
+    background-image:url('../images/stormtroopers.jpg');
+    background-repeat:no-repeat;
+    height:250px;
+}
+
+footer{
+    background-image:url('../images/darthvader_2x.jpg');
+    background-repeat:no-repeat;
+    height:270px;
+}
+
+.footer_child{
+display:flex;
+flex-direction:row;
+justify-content: space-between;
+
+width:738px;
+
+margin: auto;
+padding-top:50px;
+
+}
+
+
+.footer_child ul li{
+list-style:none;
+
+}
+
+.footer_child ul li a{
+    color:gray;
+    text-decoration:underline;
+}
+
+footer p{
+color:gray;
+text-align:center;
+padding-top:20px;
+}
+
+footer strong{
+    color:#ffffff;
+}
+
+.social-media{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
+.social-media li{
+    margin-left:20px;
+}
+
+h5{
+  color:gray;
+  margin-left:56px;
+}
+
+header img{
+    display:table;
+    margin:0 auto;
+    padding-top:100px;
+}
+/* #navArea{
+    position:fixed;
+} */
+
+.stuck{
+    position:fixed;
+    z-index:100;
+    width:1024px;
+    top:0;
 }
